@@ -10,20 +10,18 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.hero-text {
+.width-text {
   width: 50%;
 }
-.hero-text h1 {
+#header {
   font-family: "Yeseva One", cursive;
   font-size: 60px;
   border-left: 5px solid #ff5959;
 
   padding-left: 5px;
 }
-.hero-img {
-  width: 50%;
-}
-.hero-img img {
+
+.width-img {
   width: 100%;
 }
 .gold {
@@ -48,7 +46,7 @@ body {
   font-size: 45px;
 }
 
-.all-box {
+#all-box {
   width: 80%;
   margin: 50px auto;
   display: flex;
@@ -64,16 +62,18 @@ body {
 .box p {
   text-align: justify;
 }
-.box img {
-  width: 45%;
+.box img,
+.develop-img,
+.global-img {
+  width: 40%;
 }
-.first-box {
+#first-box {
   background-color: #4f9da61a;
 }
-.second-box {
+#second-box {
   background-color: #ff59591a;
 }
-.third-box {
+#third-box {
   background-color: #fff4d6;
 }
 #develop-box {
@@ -84,35 +84,19 @@ body {
   width: 95%;
   margin: auto;
 }
-.develop {
+#develop {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: auto;
   width: 85%;
 }
-.develop-img {
-  width: 40%;
-}
-.develop-img img {
-  width: 100%;
-}
-.develop-text {
-  width: 50%;
-}
+
 .had-name {
   font-weight: bold;
   font-size: 35px;
 }
-.global-text {
-  width: 50%;
-}
-.global-img {
-  width: 40%;
-}
-.global-img img {
-  width: 100%;
-}
+
 #global-box {
   background-image: url(./images/shapes/shape-1.png);
   background-repeat: no-repeat;
@@ -121,7 +105,7 @@ body {
   width: 95%;
   margin: auto;
 }
-.global {
+#global {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -143,7 +127,7 @@ textarea {
   resize: vertical;
 }
 
-.container {
+#connected {
   width: 80%;
   margin: 50px auto;
 }
