@@ -62,9 +62,12 @@ body {
 
 .box img,
 .develop-img,
-.global-img,
+.global-img {
+  width: 40%;
+}
 .hero-img {
   width: 40%;
+  border: 1px solid;
 }
 #first-box {
   background-color: #4f9da61a;
