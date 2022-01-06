@@ -2,7 +2,9 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
-
+p {
+  font-size: 20px;
+}
 #hero-banner {
   width: 80%;
   margin: auto;
@@ -34,6 +36,12 @@ body {
   padding: 12px 20px;
   border: none;
   color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #ffad5a;
+  color: black;
+  transition: 1s;
 }
 .hadline {
   text-align: center;
@@ -53,6 +61,9 @@ body {
   padding: 10px 10px 20px 20px;
   height: 300px;
   border-radius: 26px;
+}
+.box p {
+  text-align: justify;
 }
 .box img {
   width: 45%;
@@ -142,4 +153,7 @@ footer {
   color: white;
   padding: 30px 0;
   text-align: center;
+}
+footer span {
+  color: #ff5959;
 }
